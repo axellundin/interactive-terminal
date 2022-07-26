@@ -3,9 +3,41 @@
     height: 100vh;
     background-color: black;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
 }
 
 .text {
     color: green;   
+    text-align: left;
+    margin: 0;
+}
+
+.command_input {
+    background-color: #222;
+    color:green; 
+    font-size: 3em; 
+    border-color: #0000;
+    letter-spacing: 0.1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    border-radius: 1em;
+    padding-left: 1em;
+    width: 80vw;
+}
+
+.output_window {
+    overflow: scroll;
+    padding: 1em;
+    height: 70vh;
+    width: 80vw;
+    background-color: #222;
+    margin-bottom: 5%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
